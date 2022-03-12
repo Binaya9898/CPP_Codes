@@ -20,7 +20,7 @@ class time{
 			t3.mm=t1.mm+t2.mm;
 			t3.ss=t1.ss+t2.ss;
 			if(t3.ss>59 || t3.mm>59){
-				if(t3.ss>50){
+				if(t3.ss>59){
 				
 				int p=t3.ss/60;
 				int pp=t3.ss%60;
